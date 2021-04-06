@@ -1,0 +1,428 @@
+:root{
+    --primary-color:#3751FE;
+    --second-color:#000000 60%;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(229, 229, 229, 0.41);
+
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+.rigth{
+    background-color: white;
+
+    position: relative;
+    height:100%;
+    width: 50vw;
+
+    display:flex;
+    align-items: center;
+
+   
+}
+.main{
+    position: relative;
+    left: 80px;
+    
+}
+.main h3{
+    cursor: pointer;
+    bottom: 385px;
+    color:var(--primary-color);
+    position:absolute;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 90px;
+
+
+
+   
+}
+.main h2{
+    cursor:default  ;
+    opacity: 0.8;
+    transition: 0.5s;
+    position: relative;
+    color: var(--primary-color);
+    bottom: 90px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.main h2:hover{
+    opacity: 1;
+}
+.main .welcome{
+    position: relative;
+    color: var(--second-color) ; 
+    bottom:75px;
+    opacity:0.6;
+    cursor: default;
+}
+.form .email{
+    opacity: 0.8;
+    position: relative;
+    bottom: 2px;
+    color:#8A2BE2;
+    font-size: 14px;
+    font-weight: bold;
+    
+    
+}
+.form .fas{
+    opacity: 1;
+    
+    padding-right:5px ;
+}
+
+.form input{
+    position: relative;
+   display:block;
+   position: relative;
+   
+   
+}
+.form .gmail{
+    width: 400px;
+    height:40px;
+
+    border: none;
+    outline: none;
+    border: 1px solid #C1BBBB;
+    border-left: 3px solid var(--primary-color);
+
+
+    border-radius: 3px;
+}
+.form .password{
+    width: 400px;
+    height:40px;
+    border: none;
+    outline: none;
+    border: 1px solid #C1BBBB;
+    border-left: 3px solid var(--primary-color);
+    border-radius: 3px;
+    top: 2px;
+   
+}
+/***/.form .gmail::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}.form .password::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.main .checkbox{
+    position: relative;
+    top: 15px;
+    opacity:0.3;
+    left: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.main .remember {
+    position:relative;
+    left:40px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.61);
+
+
+}
+.main .forgot{
+    position: relative;
+    text-decoration: none;
+    left:150px;
+    color: rgba(0, 0, 0, 0.61);
+
+
+}
+.button{
+    
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    right: 76px;
+}
+.button button{
+    
+    outline:none;
+    width: 129px;
+    height: 54px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    position: relative;
+    right:34px;
+    
+}
+
+.button .login{
+    background:var(--primary-color);
+    color:white;
+    border: none;
+    opacity: .8;
+
+}
+.button .login:hover{
+    opacity: 1;
+    transition:.8s;
+}
+.button .sing_up{
+    position: relative;
+    color: var(--primary-color);
+    border: none;
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    left: 1px;
+}
+
+.footer{
+    position: relative;
+    top: 115px;
+}
+
+.footer table th{
+    position:relative;
+    padding-left: 50px;
+    right: 25px;
+}
+.footer table th a{
+    text-decoration: none;
+    color:var(--primary-color);
+
+    transition: 1s;
+}
+.footer table th a:hover{
+    
+    border-bottom: 1px solid #000000;
+    transition: 1s;
+    
+}
+.footer table th:first-child{
+    position: relative;
+    right: 54px;
+    color: #000000;
+    opacity: .7 ;
+    transition:5s;
+
+  
+    
+}
+
+
+
+.left{
+    margin:0;
+    padding: 0;
+    
+    height:100%;
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    left: 662px;
+    top: 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.container header table th{
+    padding-left: 50px;
+    position: relative;
+    bottom:455px;
+    left:40px;
+}
+.container header a{
+    
+    text-decoration: none;
+    color: #000000;
+    opacity: .7 ;
+    
+  
+}
+.container header a:hover{
+    border-bottom: 2px solid var(--primary-color);    
+
+}
+
+
+.container .img img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left:80px;
+    
+}
+
+
+@media (max-width:1078px){
+    body{
+        
+        background: rgba(229, 229, 229, 0.41);
+
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Roboto', sans-serif;
+    }
+    .button{
+        position: relative;
+        left:15px;
+    }
+    .footer{
+        background: url('./img/bars-solid.svg') no-repeat left ;
+        cursor: pointer;
+        color:var(--primary-color);
+        
+    }
+    .footer table th{
+        cursor: default;
+      position: relative;
+      float: right;
+    }
+    
+    
+    .footer table th a:last-child{
+        display:none;
+    }
+    
+    .left{
+       
+        
+        position: absolute;
+        left: 450px;
+        
+        
+    }
+    .container header table th{
+        padding-left: 55px;
+        position: relative;
+        bottom:455px;
+        left:40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+}
+
+
+@media (max-width:991px){
+    
+    body{
+        background-color: white;
+        width:50%;
+        
+    }
+    .rigth{
+        background-color: white;
+    
+        position: relative;
+        height:100vh;
+        width: 100vw;
+        right: 70px;
+    
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+       
+    }
+    .main h3{
+        cursor: pointer;
+        bottom: 385px;
+        color:var(--primary-color);
+        position:absolute;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 90px;
+    
+    
+    
+       
+    }
+    .main h2{
+        cursor:default  ;
+        opacity: 0.8;
+        transition: 0.5s;
+        position: relative;
+        color: var(--primary-color);
+        bottom: 90px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .footer{
+        background: url('./img/bars-solid.svg') no-repeat left ;
+        cursor: pointer;
+        color:var(--primary-color);
+        position:relative;
+        left:20px;
+        
+    }
+    .footer table th{
+        cursor: default;
+        position: relative;
+        float: right;
+        left:-69px;
+    }
+   
+    .left{
+      
+        
+        height:100%;
+        position: absolute;
+        width: 50vw;
+        height: 100vh;
+        top: 800px;
+        left: 50px;
+        top: 600px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+            
+        
+                
+    }
+
+    .left .container .img img{
+      position: relative;
+      
+
+    }
+}
